@@ -1,5 +1,4 @@
 import inspect
-
 import requests
 
 def get_all(url):
