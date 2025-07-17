@@ -1,3 +1,8 @@
+
+This is text2.txt
+Add text to text2.txt to use "git fetch"
+123
+___
+
 This is text2.txt from dir Python
 This is text2.txt
-

@@ -1,3 +1,10 @@
 # add some comment to use status
 # This comment from Python dir
+This line from main branch
+# This line from branch1
 
+git stash on dao
+git stash on dao2
+
+git stash on main2
+git stash in main
