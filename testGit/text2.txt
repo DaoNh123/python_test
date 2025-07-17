@@ -6,3 +6,5 @@ ___
 
 This is text2.txt from dir Python
 This is text2.txt
+
+line add for git revert <commit-hash>
