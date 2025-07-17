@@ -22,14 +22,3 @@ def get_current_user(url, accessToken):
     print(response.json())
 
     return dict(response.json())
-
-def get_refresh_auth_token(url, refreshToken, expiresInMinutes):
-    print('refreshToken', refreshToken)
-    payload = {
-        'refreshToken': refreshToken,
-        'expiresInMinutes': str(expiresInMinutes),
-    }
-
-    response = requests.post(url, data = payload)
-
-    return response.json()
